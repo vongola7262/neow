@@ -14,6 +14,9 @@ export default defineNuxtConfig({
       }
     }]
   ],
+  image: {
+    dir: 'assets/images'
+  },
   postcss: {
     plugins: {
       tailwindcss: {},

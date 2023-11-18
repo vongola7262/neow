@@ -24,11 +24,11 @@ useHeadSafe({
   }
 })
 useSeoMeta({
-    title: '首頁',
-    keywords: 'Nuxt 3 ProductList',
-    description: 'Nuxt 3 Blog',
-    ogTitle: 'Nuxt 3 Blog',
-    ogDescription: 'Nuxt 3 Blog',
+    title: '喵立翰 - 立委候選人',
+    keywords: '立委 喵立翰 喵的明天 2023 F2E',
+    description: '台灣的明天喵先鋪路，2023 The F2E 立委候選人',
+    ogTitle: '立委候選人-喵立翰',
+    ogDescription: '立委 喵立翰 喵的明天 2023 F2E',
     ogImage: ''
 });
 </script>

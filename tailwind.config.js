@@ -13,6 +13,9 @@ export default {
       'display': '"MantouSans", sans-serif',
       'body': '"Roboto", sans-serif'
     },
+    borderRadius: {
+      bannerlg: '200px'
+    },
     extend: {},
   },
   plugins: [],
