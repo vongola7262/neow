@@ -17,6 +17,10 @@ export default defineNuxtConfig({
   image: {
     dir: 'assets/images'
   },
+  app: {
+    baseURL: process.env.NODE_ENV === 'production' ? '/neow/' : '/',
+    buildAssetsDir: '/assets/'
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
