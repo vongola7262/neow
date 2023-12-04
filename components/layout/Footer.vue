@@ -4,7 +4,7 @@
       <div>
         <nuxt-img src="footerLogo.png" height="55" densities="x2 x1" alt="喵立翰" class="mx-auto"/>
       </div>
-      <ul class="flex items-center my-[52px]">
+      <ul class="grid grid-cols-2 gap-4 my-[30px] sm:grid-cols-4 sm:my-[52px]">
         <li v-for="(item,index) in items" :key="index" class="px-5 flex-1 border-r-2 last:border-0">
           <a href="#">
             <p class="text-white text-xl font-bold text-center">{{ item.name }}</p>

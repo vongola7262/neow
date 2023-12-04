@@ -39,7 +39,7 @@
             h-screen
             w-2/5
             bg-white
-            shadow-md
+            shadow-2xl
             py-[80px]
             sm:relative
             sm:flex-row
@@ -119,11 +119,21 @@
   const { width } = useWindowSize();
   watch(width, nwidth => {
      if(nwidth >= 640) {
-      menuState.value = false
-     }
-  })
+      menuState.value = false;
+     };
+  });
   const menuStateChange = () => {
-    menuState.value = !menuState.value
+    menuState.value = !menuState.value;
   };
+
+  onMounted(() => {
+    watch(menuState, n => {
+      if(n){
+        document.body.style.overflow = 'hidden';
+      } else {
+        document.body.style.overflow = 'visible';
+      };
+    });
+  });
 
 </script>

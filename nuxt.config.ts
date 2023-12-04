@@ -18,8 +18,8 @@ export default defineNuxtConfig({
     dir: 'assets/images'
   },
   app: {
-    baseURL: process.env.NODE_ENV === 'production' ? '/neow/' : '/',
-    buildAssetsDir: '/assets/'
+    // baseURL: process.env.NODE_ENV === 'production' ? '/neow/' : '/',
+    // buildAssetsDir: '/assets/'
   },
   postcss: {
     plugins: {
