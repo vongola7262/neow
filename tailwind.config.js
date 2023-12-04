@@ -16,7 +16,21 @@ export default {
     borderRadius: {
       bannerlg: '200px'
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        menuOpen: {
+          '0%' : {
+            transform: 'translateX(0)'
+          },
+          '100%' : {
+            transform: 'translateX(-100%)'
+          }
+        }
+      },
+      animation: {
+        menuOpen: 'menuOpen 0.5s ease-in-out forwards',
+      }
+    },
   },
   plugins: [],
 }
