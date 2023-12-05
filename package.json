@@ -14,9 +14,11 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/fontaine": "^0.4.1",
     "@nuxtjs/google-fonts": "^3.0.2",
-    "@nuxtjs/tailwindcss": "^6.9.4",
+    "autoprefixer": "^10.4.16",
     "gh-pages": "^6.0.0",
     "nuxt": "^3.8.1",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
   },
